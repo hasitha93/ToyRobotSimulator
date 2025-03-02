@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToyRobotSimulator.Application\ToyRobotSimulator.Application.csproj" />
+  </ItemGroup>
+
 </Project>
