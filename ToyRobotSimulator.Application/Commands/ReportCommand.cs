@@ -5,8 +5,5 @@ namespace ToyRobotSimulator.Application.Commands;
 
 public class ReportCommand : IReport
 {
-    public string GetReport(Robot robot)
-    {
-        return null;
-    }
+    public string GetReport(Robot robot) => robot.Report();
 }
