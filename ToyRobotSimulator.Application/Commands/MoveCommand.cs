@@ -5,8 +5,5 @@ namespace ToyRobotSimulator.Application.Commands;
 
 public class MoveCommand : ICommand
 {
-    public void Execute(Robot robot)
-    {
-    
-    }
+    public void Execute(Robot robot) => robot.Move();
 }
