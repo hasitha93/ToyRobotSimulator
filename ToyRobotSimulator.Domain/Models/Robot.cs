@@ -26,5 +26,10 @@ public class Robot
         }
     }
 
+    public void Move()
+    {
+       
+    }
+
     private static bool IsValidPosition(int x, int y) => x >= 0 && x < TABLE_SIZE && y >= 0 && y < TABLE_SIZE;
 }
