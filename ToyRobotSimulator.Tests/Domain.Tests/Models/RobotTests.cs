@@ -42,4 +42,16 @@ public class RobotTests
         Assert.Equal(0, robot.X);
         Assert.Equal(1, robot.Y);
     }
+
+    [Fact]
+    public void Move_InvalidMoveSouth_RobotDoesNotFall()
+    {
+        var robot = new Robot();
+
+        robot.Place(0, 0, Direction.SOUTH);
+        robot.Move();
+
+        Assert.Equal(0, robot.X);
+        Assert.Equal(0, robot.Y);
+    }
 }
