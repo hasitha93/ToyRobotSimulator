@@ -17,8 +17,5 @@ public class PlaceCommand : ICommand
         _facing = facing;
     }
 
-    public void Execute(Robot robot)
-    {
-        
-    }
+    public void Execute(Robot robot) => robot.Place(_x, _y, _facing);
 }
