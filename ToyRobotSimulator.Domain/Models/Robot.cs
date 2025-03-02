@@ -98,10 +98,7 @@ public class Robot
         }
     }
 
-    public string Report()
-    {
-        return null;
-    }
+    public string Report() => IsPlaced ? $"{X}, {Y}, {Facing}" : "Robot is not placed on the table.";
 
     private static bool IsValidPosition(int x, int y) => x >= 0 && x < TABLE_SIZE && y >= 0 && y < TABLE_SIZE;
 }
