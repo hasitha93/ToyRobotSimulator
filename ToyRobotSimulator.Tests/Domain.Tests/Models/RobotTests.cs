@@ -30,4 +30,15 @@ public class RobotTests
 
         Assert.False(robot.IsPlaced);
     }
+
+    [Fact]
+    public void Move_ValidMoveNorth_PositionUpdated()
+    {
+        var robot = new Robot();
+        robot.Place(0, 0, Direction.NORTH);
+        robot.Move();
+
+        Assert.Equal(0, robot.X);
+        Assert.Equal(1, robot.Y);
+    }
 }
