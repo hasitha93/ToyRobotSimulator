@@ -24,4 +24,15 @@ public class PlaceCommandTests
         Assert.Equal(0, robot.Y);
         Assert.Equal(Direction.NORTH, robot.Facing);
     }
+
+    [Fact]
+    public void Execute_InvalidPlacement_RobotIsNotPlaced()
+    {
+        var robot = new Robot();
+        var command = new PlaceCommand(-1, 5, Direction.NORTH);
+
+        command.Execute(robot);
+
+        Assert.False(robot.IsPlaced);
+    }
 }
