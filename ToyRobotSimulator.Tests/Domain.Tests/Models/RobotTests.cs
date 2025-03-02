@@ -75,4 +75,15 @@ public class RobotTests
 
         Assert.Equal(Direction.EAST, robot.Facing);
     }
+
+    [Fact]
+    public void Report_RobotPlaced_ReturnsCorrectPositionAndFacing()
+    {
+        var robot = new Robot();
+
+        robot.Place(1, 2, Direction.EAST);
+        var report = robot.Report();
+
+        Assert.Equal("1, 2, EAST", report);
+    }
 }
