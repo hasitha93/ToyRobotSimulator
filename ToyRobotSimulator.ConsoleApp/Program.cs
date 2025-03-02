@@ -13,7 +13,7 @@ public class Program
 
         while (true)
         {
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(input)) continue;
 
             IBaseCommand command = CommandParser.Parse(input.Trim().ToUpper());
