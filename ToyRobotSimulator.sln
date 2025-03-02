@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotSimulator.Application", "ToyRobotSimulator.Application\ToyRobotSimulator.Application.csproj", "{98DC2BEF-515B-4642-A88D-672F84C79201}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{90D895CF-D4D6-40CF-BB92-F0F1864A528B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotSimulator.Infrastructure", "ToyRobotSimulator.Infrastructure\ToyRobotSimulator.Infrastructure.csproj", "{9BA42E6B-6782-4803-90FE-D72286DDBDC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{98DC2BEF-515B-4642-A88D-672F84C79201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DC2BEF-515B-4642-A88D-672F84C79201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DC2BEF-515B-4642-A88D-672F84C79201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA42E6B-6782-4803-90FE-D72286DDBDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA42E6B-6782-4803-90FE-D72286DDBDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA42E6B-6782-4803-90FE-D72286DDBDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA42E6B-6782-4803-90FE-D72286DDBDC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +49,6 @@ Global
 		{EEC982D9-EDFA-4F27-8E72-D1D5159A3FE9} = {69C9156C-37B8-4A23-BD5C-9F1060871AD2}
 		{33E06681-D126-4C4E-BE47-2EA6AF1E61FB} = {30ECAE10-8762-44A5-B6A9-AB39AF18D743}
 		{98DC2BEF-515B-4642-A88D-672F84C79201} = {C5DD2C23-C637-4275-BD2C-A8F0624F6CFE}
+		{9BA42E6B-6782-4803-90FE-D72286DDBDC7} = {90D895CF-D4D6-40CF-BB92-F0F1864A528B}
 	EndGlobalSection
 EndGlobal
