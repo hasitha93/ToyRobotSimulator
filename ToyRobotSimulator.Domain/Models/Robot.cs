@@ -30,20 +30,29 @@ public class Robot
     {
         if (!IsPlaced) return;
 
+        int newX = X;
+        int newY = Y;
+
         switch (Facing)
         {
             case Direction.NORTH:
-                Y++;
+                newY++;
                 break;
             case Direction.SOUTH:
-                Y--;
+                newY--;
                 break;
             case Direction.EAST:
-                X++;
+                newX++;
                 break;
             case Direction.WEST:
-                X--;
+                newX--;
                 break;
+        }
+
+        if (IsValidPosition(newX, newY))
+        {
+            X = newX;
+            Y = newY;
         }
     }
 
