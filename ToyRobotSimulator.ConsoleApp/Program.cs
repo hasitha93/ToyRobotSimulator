@@ -4,6 +4,9 @@ using ToyRobotSimulator.Infrastructure.Parsers;
 
 namespace ToyRobotSimulator.ConsoleApp;
 
+/// <summary>
+/// Continuously reads user input, parses it, and executes the corresponding command on the robot.
+/// </summary>
 public class Program
 {
     static void Main(string[] args)

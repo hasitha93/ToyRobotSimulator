@@ -4,6 +4,9 @@ using ToyRobotSimulator.Domain.Enums;
 
 namespace ToyRobotSimulator.Infrastructure.Parsers;
 
+/// <summary>
+/// Parsing user input and converting it into the appropriate command object.
+/// </summary>
 public class CommandParser
 {
     public static IBaseCommand Parse(string input)

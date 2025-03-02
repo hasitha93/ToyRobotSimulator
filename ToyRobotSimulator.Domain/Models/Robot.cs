@@ -2,6 +2,10 @@
 
 namespace ToyRobotSimulator.Domain.Models;
 
+/// <summary>
+/// Manages the robot's state (position and facing direction) and 
+/// contains methods to move, rotate, and report the robot's current state. 
+/// </summary>
 public class Robot
 {
     private const int TABLE_SIZE = 5;
