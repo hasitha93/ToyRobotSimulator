@@ -54,4 +54,15 @@ public class RobotTests
         Assert.Equal(0, robot.X);
         Assert.Equal(0, robot.Y);
     }
+
+    [Fact]
+    public void Left_RobotTurnsWestFromNorth()
+    {
+        var robot = new Robot();
+
+        robot.Place(0, 0, Direction.NORTH);
+        robot.Left();
+
+        Assert.Equal(Direction.WEST, robot.Facing);
+    }
 }
