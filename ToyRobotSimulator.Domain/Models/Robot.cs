@@ -28,7 +28,23 @@ public class Robot
 
     public void Move()
     {
-       
+        if (!IsPlaced) return;
+
+        switch (Facing)
+        {
+            case Direction.NORTH:
+                Y++;
+                break;
+            case Direction.SOUTH:
+                Y--;
+                break;
+            case Direction.EAST:
+                X++;
+                break;
+            case Direction.WEST:
+                X--;
+                break;
+        }
     }
 
     private static bool IsValidPosition(int x, int y) => x >= 0 && x < TABLE_SIZE && y >= 0 && y < TABLE_SIZE;

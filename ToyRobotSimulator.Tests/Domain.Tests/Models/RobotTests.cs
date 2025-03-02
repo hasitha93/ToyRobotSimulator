@@ -35,6 +35,7 @@ public class RobotTests
     public void Move_ValidMoveNorth_PositionUpdated()
     {
         var robot = new Robot();
+
         robot.Place(0, 0, Direction.NORTH);
         robot.Move();
 
