@@ -5,8 +5,5 @@ namespace ToyRobotSimulator.Application.Commands;
 
 public class RightCommand : ICommand
 {
-    public void Execute(Robot robot)
-    {
-
-    }
+    public void Execute(Robot robot) => robot.Right();
 }
