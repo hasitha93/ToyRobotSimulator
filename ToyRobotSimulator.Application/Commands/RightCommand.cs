@@ -3,7 +3,7 @@ using ToyRobotSimulator.Domain.Models;
 
 namespace ToyRobotSimulator.Application.Commands;
 
-public class RightCommandc : ICommand
+public class RightCommand : ICommand
 {
     public void Execute(Robot robot)
     {
