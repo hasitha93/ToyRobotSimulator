@@ -86,4 +86,14 @@ public class RobotTests
 
         Assert.Equal("1, 2, EAST", report);
     }
+
+    [Fact]
+    public void Report_RobotNotPlaced_ReturnsNotPlacedMessage()
+    {
+        var robot = new Robot();
+
+        var report = robot.Report();
+
+        Assert.Equal("Robot is not placed on the table.", report);
+    }
 }
