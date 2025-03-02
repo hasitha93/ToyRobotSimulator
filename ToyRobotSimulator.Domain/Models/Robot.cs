@@ -17,6 +17,14 @@ public class Robot
 
     public void Place(int x, int y, Direction facing)
     {
-
+        if (IsValidPosition(x, y))
+        {
+            X = x;
+            Y = y;
+            Facing = facing;
+            IsPlaced = true;
+        }
     }
+
+    private static bool IsValidPosition(int x, int y) => x >= 0 && x < TABLE_SIZE && y >= 0 && y < TABLE_SIZE;
 }
