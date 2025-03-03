@@ -103,7 +103,7 @@ dotnet test
 ```
 
 ## Key Features
-1. **Clean Architecture**: The application is divided into layers (Domain, Application, Infrastructure, Presentation) to ensure separation of concerns and maintainability.
+1. **Clean Architecture**: The application is divided into layers (`Domain`, `Application`, `Infrastructure`, `Presentation`) to ensure separation of concerns and maintainability.
 2. **Command Design Pattern**: Each command is encapsulated as an object, making the code modular and extensible.
 3. **Validation**: The robot is prevented from falling off the table. Invalid commands are ignored.
 4. **Unit Tests**: Comprehensive unit tests ensure the application behaves as expected.
