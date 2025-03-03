@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ToyRobotSimulator.Application\ToyRobotSimulator.Application.csproj" />
     <ProjectReference Include="..\ToyRobotSimulator.Domain\ToyRobotSimulator.Domain.csproj" />
+    <ProjectReference Include="..\ToyRobotSimulator.Infrastructure\ToyRobotSimulator.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
