@@ -1,6 +1,5 @@
 ﻿using ToyRobotSimulator.Domain.Enums;
 using ToyRobotSimulator.Domain.Models;
-using Xunit;
 
 namespace ToyRobotSimulator.Tests.Domain.Tests.Models;
 
