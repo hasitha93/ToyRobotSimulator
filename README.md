@@ -92,7 +92,7 @@ dotnet run
 
 
 ## Running the Tests
-1. Navigate to the 'ToyRobotSimulator.Tests' folder:
+1. Navigate to the `ToyRobotSimulator.Tests` folder:
 ```bash
 cd ToyRobotSimulator/ToyRobotSimulator.Tests
 ```
