@@ -19,7 +19,7 @@ public class Program
             string? input = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(input)) continue;
 
-            IBaseCommand command = CommandParser.Parse(input.Trim().ToUpper());
+            IBaseCommand? command = CommandParser.Parse(input.Trim().ToUpper());
 
             if (command == null)
             {

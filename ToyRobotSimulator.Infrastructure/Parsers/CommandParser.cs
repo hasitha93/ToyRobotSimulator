@@ -9,7 +9,7 @@ namespace ToyRobotSimulator.Infrastructure.Parsers;
 /// </summary>
 public class CommandParser
 {
-    public static IBaseCommand Parse(string input)
+    public static IBaseCommand? Parse(string input)
     {
         if (input.StartsWith("PLACE"))
         {
